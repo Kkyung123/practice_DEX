@@ -1,0 +1,64 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "test/dex.t.sol",
+    "id": 1287,
+    "exportedSymbols": {
+      "Context": [
+        711
+      ],
+      "DEX": [
+        1283
+      ],
+      "ERC20": [
+        586
+      ],
+      "IERC20": [
+        664
+      ],
+      "IERC20Metadata": [
+        689
+      ],
+      "Math": [
+        787
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:50:6",
+    "nodes": [
+      {
+        "id": 1285,
+        "nodeType": "PragmaDirective",
+        "src": "32:23:6",
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 1286,
+        "nodeType": "ImportDirective",
+        "src": "57:24:6",
+        "absolutePath": "src/dex.sol",
+        "file": "../src/dex.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 1287,
+        "sourceUnit": 1284,
+        "symbolAliases": [],
+        "unitAlias": ""
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 6
+}
