@@ -4,7 +4,7 @@ import '@openzeppelin/contracts/token/ERC20/ERC20.sol';
 import '@openzeppelin/contracts/token/ERC20/IERC20.sol';
 import "./Math.sol";
 
-contract DEX is IERC20, ERC20 {
+contract DEXs is IERC20, ERC20 {
 
     address public tokenX;
     address public tokenY;
